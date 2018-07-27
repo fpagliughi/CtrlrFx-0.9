@@ -1,0 +1,15 @@
+
+interface MyIface
+{
+	void test();
+	int bubba();
+
+	void change_this(inout int n);
+
+	int add(in int a1, in int a2);
+	int sub(int a1, int a2);
+	double dadd(in double a1, in double a2);
+	Matrix madd(Matrix m1, Matrix m2);
+}
+
+

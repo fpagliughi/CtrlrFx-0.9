@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CtrlrFx", "CtrlrFx.vcproj", "{F9BAD4F7-3535-498F-BB4C-F9AB7DE49A08}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DigIOSim", "examples\DistObj\DigIOSim\DigIOSim.vcproj", "{F7521EC4-2231-4A47-A0CA-B210EBB6124C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F9BAD4F7-3535-498F-BB4C-F9AB7DE49A08} = {F9BAD4F7-3535-498F-BB4C-F9AB7DE49A08}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DigIOClient", "examples\DistObj\DigIOClient\DigIOClient.vcproj", "{1084BCE2-6244-47ED-82C3-5E9E6A8BD06C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F9BAD4F7-3535-498F-BB4C-F9AB7DE49A08} = {F9BAD4F7-3535-498F-BB4C-F9AB7DE49A08}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OSTest", "test\os\OSTest\OSTest.vcproj", "{F6B94FB1-EADD-4458-BF9A-45E14D2F91BF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F9BAD4F7-3535-498F-BB4C-F9AB7DE49A08} = {F9BAD4F7-3535-498F-BB4C-F9AB7DE49A08}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9BAD4F7-3535-498F-BB4C-F9AB7DE49A08}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9BAD4F7-3535-498F-BB4C-F9AB7DE49A08}.Debug|Win32.Build.0 = Debug|Win32
+		{F9BAD4F7-3535-498F-BB4C-F9AB7DE49A08}.Release|Win32.ActiveCfg = Release|Win32
+		{F9BAD4F7-3535-498F-BB4C-F9AB7DE49A08}.Release|Win32.Build.0 = Release|Win32
+		{F7521EC4-2231-4A47-A0CA-B210EBB6124C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F7521EC4-2231-4A47-A0CA-B210EBB6124C}.Debug|Win32.Build.0 = Debug|Win32
+		{F7521EC4-2231-4A47-A0CA-B210EBB6124C}.Release|Win32.ActiveCfg = Release|Win32
+		{F7521EC4-2231-4A47-A0CA-B210EBB6124C}.Release|Win32.Build.0 = Release|Win32
+		{1084BCE2-6244-47ED-82C3-5E9E6A8BD06C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1084BCE2-6244-47ED-82C3-5E9E6A8BD06C}.Debug|Win32.Build.0 = Debug|Win32
+		{1084BCE2-6244-47ED-82C3-5E9E6A8BD06C}.Release|Win32.ActiveCfg = Release|Win32
+		{1084BCE2-6244-47ED-82C3-5E9E6A8BD06C}.Release|Win32.Build.0 = Release|Win32
+		{F6B94FB1-EADD-4458-BF9A-45E14D2F91BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6B94FB1-EADD-4458-BF9A-45E14D2F91BF}.Debug|Win32.Build.0 = Debug|Win32
+		{F6B94FB1-EADD-4458-BF9A-45E14D2F91BF}.Release|Win32.ActiveCfg = Release|Win32
+		{F6B94FB1-EADD-4458-BF9A-45E14D2F91BF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

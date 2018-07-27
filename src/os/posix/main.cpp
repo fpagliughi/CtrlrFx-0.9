@@ -1,0 +1,17 @@
+// main.cpp
+
+#include "CtrlrFx/CtrlrFx.h"
+#include "CtrlrFx/os.h"
+
+using namespace CtrlrFx;
+
+/////////////////////////////////////////////////////////////////////////////
+//									App
+/////////////////////////////////////////////////////////////////////////////
+
+int main(int argc, char *argv[])
+{
+	Thread::curr_priority(Thread::PRIORITY_NORMAL);
+	return App::main(argc, argv);
+}
+

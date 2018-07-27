@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OSTest", "OSTest.vcproj", "{F6B94FB1-EADD-4458-BF9A-45E14D2F91BF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F6B94FB1-EADD-4458-BF9A-45E14D2F91BF}.Debug.ActiveCfg = Debug|Win32
+		{F6B94FB1-EADD-4458-BF9A-45E14D2F91BF}.Debug.Build.0 = Debug|Win32
+		{F6B94FB1-EADD-4458-BF9A-45E14D2F91BF}.Release.ActiveCfg = Release|Win32
+		{F6B94FB1-EADD-4458-BF9A-45E14D2F91BF}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
